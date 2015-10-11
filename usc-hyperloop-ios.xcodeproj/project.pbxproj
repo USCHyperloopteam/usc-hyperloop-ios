@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB336501BCB273A0021FB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3364F1BCB273A0021FB01 /* main.m */; };
+		BBB336531BCB273A0021FB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336521BCB273A0021FB01 /* AppDelegate.m */; };
+		BBB336561BCB273A0021FB01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336551BCB273A0021FB01 /* ViewController.m */; };
+		BBB336591BCB273A0021FB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB336571BCB273A0021FB01 /* Main.storyboard */; };
+		BBB3365B1BCB273A0021FB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3365A1BCB273A0021FB01 /* Assets.xcassets */; };
+		BBB3365E1BCB273A0021FB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB3365C1BCB273A0021FB01 /* LaunchScreen.storyboard */; };
+		BBB336691BCB273A0021FB01 /* usc_hyperloop_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336681BCB273A0021FB01 /* usc_hyperloop_iosTests.m */; };
+		BBB336741BCB273A0021FB01 /* usc_hyperloop_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336731BCB273A0021FB01 /* usc_hyperloop_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB336651BCB273A0021FB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB336431BCB27390021FB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB3364A1BCB27390021FB01;
+			remoteInfo = "usc-hyperloop-ios";
+		};
+		BBB336701BCB273A0021FB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB336431BCB27390021FB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB3364A1BCB27390021FB01;
+			remoteInfo = "usc-hyperloop-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "usc-hyperloop-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3364F1BCB273A0021FB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBB336511BCB273A0021FB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBB336521BCB273A0021FB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBB336541BCB273A0021FB01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBB336551BCB273A0021FB01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBB336581BCB273A0021FB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBB3365A1BCB273A0021FB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB3365D1BCB273A0021FB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBB3365F1BCB273A0021FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB336641BCB273A0021FB01 /* usc-hyperloop-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "usc-hyperloop-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB336681BCB273A0021FB01 /* usc_hyperloop_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usc_hyperloop_iosTests.m; sourceTree = "<group>"; };
+		BBB3366A1BCB273A0021FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB3366F1BCB273A0021FB01 /* usc-hyperloop-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "usc-hyperloop-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB336731BCB273A0021FB01 /* usc_hyperloop_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usc_hyperloop_iosUITests.m; sourceTree = "<group>"; };
+		BBB336751BCB273A0021FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB336481BCB27390021FB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB336611BCB273A0021FB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3366C1BCB273A0021FB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB336421BCB27390021FB01 = {
+			isa = PBXGroup;
+			children = (
+				BBB3364D1BCB273A0021FB01 /* usc-hyperloop-ios */,
+				BBB336671BCB273A0021FB01 /* usc-hyperloop-iosTests */,
+				BBB336721BCB273A0021FB01 /* usc-hyperloop-iosUITests */,
+				BBB3364C1BCB273A0021FB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB3364C1BCB273A0021FB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */,
+				BBB336641BCB273A0021FB01 /* usc-hyperloop-iosTests.xctest */,
+				BBB3366F1BCB273A0021FB01 /* usc-hyperloop-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB3364D1BCB273A0021FB01 /* usc-hyperloop-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BBB336511BCB273A0021FB01 /* AppDelegate.h */,
+				BBB336521BCB273A0021FB01 /* AppDelegate.m */,
+				BBB336541BCB273A0021FB01 /* ViewController.h */,
+				BBB336551BCB273A0021FB01 /* ViewController.m */,
+				BBB336571BCB273A0021FB01 /* Main.storyboard */,
+				BBB3365A1BCB273A0021FB01 /* Assets.xcassets */,
+				BBB3365C1BCB273A0021FB01 /* LaunchScreen.storyboard */,
+				BBB3365F1BCB273A0021FB01 /* Info.plist */,
+				BBB3364E1BCB273A0021FB01 /* Supporting Files */,
+			);
+			path = "usc-hyperloop-ios";
+			sourceTree = "<group>";
+		};
+		BBB3364E1BCB273A0021FB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3364F1BCB273A0021FB01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB336671BCB273A0021FB01 /* usc-hyperloop-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB336681BCB273A0021FB01 /* usc_hyperloop_iosTests.m */,
+				BBB3366A1BCB273A0021FB01 /* Info.plist */,
+			);
+			path = "usc-hyperloop-iosTests";
+			sourceTree = "<group>";
+		};
+		BBB336721BCB273A0021FB01 /* usc-hyperloop-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB336731BCB273A0021FB01 /* usc_hyperloop_iosUITests.m */,
+				BBB336751BCB273A0021FB01 /* Info.plist */,
+			);
+			path = "usc-hyperloop-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-ios" */;
+			buildPhases = (
+				BBB336471BCB27390021FB01 /* Sources */,
+				BBB336481BCB27390021FB01 /* Frameworks */,
+				BBB336491BCB27390021FB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "usc-hyperloop-ios";
+			productName = "usc-hyperloop-ios";
+			productReference = BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB336631BCB273A0021FB01 /* usc-hyperloop-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3367B1BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-iosTests" */;
+			buildPhases = (
+				BBB336601BCB273A0021FB01 /* Sources */,
+				BBB336611BCB273A0021FB01 /* Frameworks */,
+				BBB336621BCB273A0021FB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB336661BCB273A0021FB01 /* PBXTargetDependency */,
+			);
+			name = "usc-hyperloop-iosTests";
+			productName = "usc-hyperloop-iosTests";
+			productReference = BBB336641BCB273A0021FB01 /* usc-hyperloop-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBB3366E1BCB273A0021FB01 /* usc-hyperloop-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3367E1BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-iosUITests" */;
+			buildPhases = (
+				BBB3366B1BCB273A0021FB01 /* Sources */,
+				BBB3366C1BCB273A0021FB01 /* Frameworks */,
+				BBB3366D1BCB273A0021FB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB336711BCB273A0021FB01 /* PBXTargetDependency */,
+			);
+			name = "usc-hyperloop-iosUITests";
+			productName = "usc-hyperloop-iosUITests";
+			productReference = BBB3366F1BCB273A0021FB01 /* usc-hyperloop-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB336431BCB27390021FB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "USC Hyperloop";
+				TargetAttributes = {
+					BBB3364A1BCB27390021FB01 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BBB336631BCB273A0021FB01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBB3364A1BCB27390021FB01;
+					};
+					BBB3366E1BCB273A0021FB01 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBB3364A1BCB27390021FB01;
+					};
+				};
+			};
+			buildConfigurationList = BBB336461BCB27390021FB01 /* Build configuration list for PBXProject "usc-hyperloop-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB336421BCB27390021FB01;
+			productRefGroup = BBB3364C1BCB273A0021FB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */,
+				BBB336631BCB273A0021FB01 /* usc-hyperloop-iosTests */,
+				BBB3366E1BCB273A0021FB01 /* usc-hyperloop-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB336491BCB27390021FB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3365E1BCB273A0021FB01 /* LaunchScreen.storyboard in Resources */,
+				BBB3365B1BCB273A0021FB01 /* Assets.xcassets in Resources */,
+				BBB336591BCB273A0021FB01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB336621BCB273A0021FB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3366D1BCB273A0021FB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB336471BCB27390021FB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB336561BCB273A0021FB01 /* ViewController.m in Sources */,
+				BBB336531BCB273A0021FB01 /* AppDelegate.m in Sources */,
+				BBB336501BCB273A0021FB01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB336601BCB273A0021FB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB336691BCB273A0021FB01 /* usc_hyperloop_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3366B1BCB273A0021FB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB336741BCB273A0021FB01 /* usc_hyperloop_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB336661BCB273A0021FB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */;
+			targetProxy = BBB336651BCB273A0021FB01 /* PBXContainerItemProxy */;
+		};
+		BBB336711BCB273A0021FB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */;
+			targetProxy = BBB336701BCB273A0021FB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBB336571BCB273A0021FB01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB336581BCB273A0021FB01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBB3365C1BCB273A0021FB01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB3365D1BCB273A0021FB01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB336761BCB273A0021FB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBB336771BCB273A0021FB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB336791BCB273A0021FB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "usc-hyperloop-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBB3367A1BCB273A0021FB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "usc-hyperloop-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBB3367C1BCB273A0021FB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "usc-hyperloop-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usc-hyperloop-ios.app/usc-hyperloop-ios";
+			};
+			name = Debug;
+		};
+		BBB3367D1BCB273A0021FB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "usc-hyperloop-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usc-hyperloop-ios.app/usc-hyperloop-ios";
+			};
+			name = Release;
+		};
+		BBB3367F1BCB273A0021FB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "usc-hyperloop-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "usc-hyperloop-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBB336801BCB273A0021FB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "usc-hyperloop-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uschyperloop.usc-hyperloop-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "usc-hyperloop-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB336461BCB27390021FB01 /* Build configuration list for PBXProject "usc-hyperloop-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB336761BCB273A0021FB01 /* Debug */,
+				BBB336771BCB273A0021FB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB336791BCB273A0021FB01 /* Debug */,
+				BBB3367A1BCB273A0021FB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB3367B1BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3367C1BCB273A0021FB01 /* Debug */,
+				BBB3367D1BCB273A0021FB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB3367E1BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3367F1BCB273A0021FB01 /* Debug */,
+				BBB336801BCB273A0021FB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB336431BCB27390021FB01 /* Project object */;
+}
