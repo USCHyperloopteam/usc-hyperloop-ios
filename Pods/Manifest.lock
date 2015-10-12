@@ -1,10 +1,10 @@
 PODS:
-  - jetfire (0.1.4)
+  - Socket.IO-Client-Swift (3.1.4)
 
 DEPENDENCIES:
-  - jetfire
+  - Socket.IO-Client-Swift (~> 3.1.4)
 
 SPEC CHECKSUMS:
-  jetfire: 6c6715c91d8b59d2fdb051e5f76ae2fb539d0362
+  Socket.IO-Client-Swift: a0c8a6ba85ea685891d2c5f0e73b7287b89d0121
 
 COCOAPODS: 0.39.0

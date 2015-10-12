@@ -15,7 +15,7 @@
 		BBB3365E1BCB273A0021FB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB3365C1BCB273A0021FB01 /* LaunchScreen.storyboard */; };
 		BBB336691BCB273A0021FB01 /* usc_hyperloop_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336681BCB273A0021FB01 /* usc_hyperloop_iosTests.m */; };
 		BBB336741BCB273A0021FB01 /* usc_hyperloop_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB336731BCB273A0021FB01 /* usc_hyperloop_iosUITests.m */; };
-		C24D3AE9B71EF125E0C13936 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F0B827D647B7611A6FCFB8 /* libPods.a */; };
+		C83266D09A560E1DC56374BA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428194F81E5B9A144881968D /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		428194F81E5B9A144881968D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		946E793B5D3ABE9B5220C619 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB3364B1BCB273A0021FB01 /* USCHyperloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USCHyperloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB3364F1BCB273A0021FB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		BBB3366F1BCB273A0021FB01 /* usc-hyperloop-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "usc-hyperloop-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB336731BCB273A0021FB01 /* usc_hyperloop_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usc_hyperloop_iosUITests.m; sourceTree = "<group>"; };
 		BBB336751BCB273A0021FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8F0B827D647B7611A6FCFB8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0CF81CEF0848EEE5F09122 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24D3AE9B71EF125E0C13936 /* libPods.a in Frameworks */,
+				C83266D09A560E1DC56374BA /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		B9CE7DA7BC832B0E2E2BEA23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8F0B827D647B7611A6FCFB8 /* libPods.a */,
+				428194F81E5B9A144881968D /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
