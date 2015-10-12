@@ -1,0 +1,10 @@
+PODS:
+  - jetfire (0.1.4)
+
+DEPENDENCIES:
+  - jetfire
+
+SPEC CHECKSUMS:
+  jetfire: 6c6715c91d8b59d2fdb051e5f76ae2fb539d0362
+
+COCOAPODS: 0.39.0
