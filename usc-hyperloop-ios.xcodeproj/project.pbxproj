@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "usc-hyperloop-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3364B1BCB273A0021FB01 /* USCHyperloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USCHyperloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB3364F1BCB273A0021FB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBB336511BCB273A0021FB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBB336521BCB273A0021FB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		BBB3364C1BCB273A0021FB01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */,
+				BBB3364B1BCB273A0021FB01 /* USCHyperloop.app */,
 				BBB336641BCB273A0021FB01 /* usc-hyperloop-iosTests.xctest */,
 				BBB3366F1BCB273A0021FB01 /* usc-hyperloop-iosUITests.xctest */,
 			);
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */ = {
+		BBB3364A1BCB27390021FB01 /* USCHyperloop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-ios" */;
+			buildConfigurationList = BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "USCHyperloop" */;
 			buildPhases = (
 				BBB336471BCB27390021FB01 /* Sources */,
 				BBB336481BCB27390021FB01 /* Frameworks */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = "usc-hyperloop-ios";
+			name = USCHyperloop;
 			productName = "usc-hyperloop-ios";
-			productReference = BBB3364B1BCB273A0021FB01 /* usc-hyperloop-ios.app */;
+			productReference = BBB3364B1BCB273A0021FB01 /* USCHyperloop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BBB336631BCB273A0021FB01 /* usc-hyperloop-iosTests */ = {
@@ -231,7 +231,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */,
+				BBB3364A1BCB27390021FB01 /* USCHyperloop */,
 				BBB336631BCB273A0021FB01 /* usc-hyperloop-iosTests */,
 				BBB3366E1BCB273A0021FB01 /* usc-hyperloop-iosUITests */,
 			);
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		BBB336661BCB273A0021FB01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */;
+			target = BBB3364A1BCB27390021FB01 /* USCHyperloop */;
 			targetProxy = BBB336651BCB273A0021FB01 /* PBXContainerItemProxy */;
 		};
 		BBB336711BCB273A0021FB01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBB3364A1BCB27390021FB01 /* usc-hyperloop-ios */;
+			target = BBB3364A1BCB27390021FB01 /* USCHyperloop */;
 			targetProxy = BBB336701BCB273A0021FB01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "usc-hyperloop-ios" */ = {
+		BBB336781BCB273A0021FB01 /* Build configuration list for PBXNativeTarget "USCHyperloop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB336791BCB273A0021FB01 /* Debug */,

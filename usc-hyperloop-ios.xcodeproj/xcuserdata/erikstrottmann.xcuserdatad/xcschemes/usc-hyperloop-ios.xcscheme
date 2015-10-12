@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB3364A1BCB27390021FB01"
-               BuildableName = "usc-hyperloop-ios.app"
-               BlueprintName = "usc-hyperloop-ios"
+               BuildableName = "USCHyperloop.app"
+               BlueprintName = "USCHyperloop"
                ReferencedContainer = "container:usc-hyperloop-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB3364A1BCB27390021FB01"
-            BuildableName = "usc-hyperloop-ios.app"
-            BlueprintName = "usc-hyperloop-ios"
+            BuildableName = "USCHyperloop.app"
+            BlueprintName = "USCHyperloop"
             ReferencedContainer = "container:usc-hyperloop-ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB3364A1BCB27390021FB01"
-            BuildableName = "usc-hyperloop-ios.app"
-            BlueprintName = "usc-hyperloop-ios"
+            BuildableName = "USCHyperloop.app"
+            BlueprintName = "USCHyperloop"
             ReferencedContainer = "container:usc-hyperloop-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB3364A1BCB27390021FB01"
-            BuildableName = "usc-hyperloop-ios.app"
-            BlueprintName = "usc-hyperloop-ios"
+            BuildableName = "USCHyperloop.app"
+            BlueprintName = "USCHyperloop"
             ReferencedContainer = "container:usc-hyperloop-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
