@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) SocketIOClient *socket;
 @property (nonatomic, weak) IBOutlet UIButton *connectButton;
 
 @end
@@ -22,29 +23,27 @@
     
     // Socket.IO
     
-    SocketIOClient* socket = [[SocketIOClient alloc] initWithSocketURL:@"localhost:1337" opts:nil];
+    self.socket = [[SocketIOClient alloc] initWithSocketURL:@"localhost:1337/data" opts:nil];
     
-    [socket on:@"connect" callback:^(NSArray* data, SocketAckEmitter* ack) {
+    [self.socket onAny:^(SocketAnyEvent *data) {
+        NSLog(@"Received socket event!!!");
+    }];
+    
+    /*
+    [socket on:@"connect" callback:^(NSArray *data, SocketAckEmitter *ack) {
         NSLog(@"socket connected");
+    }];
+    
+    [socket on:@"disconnect" callback:^(NSArray *data, SocketAckEmitter *ack) {
+        NSLog(@"socket disconnected");
     }];
     
     [socket on:@"chat" callback:^(NSArray *data, SocketAckEmitter *ack) {
         NSLog(@"received 'chat' event with data: %@", data);
     }];
-    
-    /*
-    [socket on:@"currentAmount" callback:^(NSArray* data, SocketAckEmitter* ack) {
-        double cur = [[data objectAtIndex:0] floatValue];
-        
-        [socket emitWithAck:@"canUpdate" withItems:@[@(cur)]](0, ^(NSArray* data) {
-            [socket emit:@"update" withItems:@[@{@"amount": @(cur + 2.50)}]];
-        });
-        
-        [ack with:@[@"Got your currentAmount, ", @"dude"]];
-    }];
     */
     
-    [socket connect];
+//    [self.socket connect];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -57,10 +56,17 @@
 
 - (IBAction)sendMessage:(id)sender {
     NSLog(@"Button: send message");
+    
+    [self.socket emit:@"data" withItems:@[@12]];
 }
 
 - (IBAction)toggleConnection:(id)sender {
     NSLog(@"Button: connect");
+    
+    [self.socket connect];
+//    [self.socket connectWithTimeoutAfter:10 withTimeoutHandler:^{
+//        NSLog(@"connection timeout");
+//    }];
 }
 
 @end
